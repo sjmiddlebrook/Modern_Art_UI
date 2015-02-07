@@ -38,7 +38,7 @@ public class MoreInfoAlertDialog extends DialogFragment {
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
-                intent.setData(Uri.parse("http://www.moma.org/collection/artist.php?artist_id=4057"));
+                intent.setData(Uri.parse("http://www.moma.org/collection/browse_results.php?criteria=O%3AAD%3AE%3A4293&page_number=3&template_id=1&sort_order=1"));
                 startActivity(intent);
             }
         });

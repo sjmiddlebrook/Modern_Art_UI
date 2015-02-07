@@ -40,7 +40,7 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean b) {
 
-                updateBackgrounds(progress*2);
+                updateBackgrounds(progress * 2);
 
             }
 
