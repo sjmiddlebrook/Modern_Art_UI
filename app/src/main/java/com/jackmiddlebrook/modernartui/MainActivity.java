@@ -12,22 +12,24 @@ import android.widget.TextView;
 public class MainActivity extends Activity {
 
     SeekBar colorControl;
-    TextView block1;
     TextView block3_1;
     TextView block3_2;
     TextView block5;
     TextView block6;
+    TextView block7_1;
+    TextView block7_2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        block1 = (TextView) findViewById(R.id.block1);
         block3_1 = (TextView) findViewById(R.id.block3_1);
         block3_2 = (TextView) findViewById(R.id.block3_2);
         block5 = (TextView) findViewById(R.id.block5);
         block6 = (TextView) findViewById(R.id.block6);
+        block7_1 = (TextView) findViewById(R.id.block7_1);
+        block7_2 = (TextView) findViewById(R.id.block7_2);
 
         colorControl = (SeekBar) findViewById(R.id.seekBar);
 
@@ -55,13 +57,6 @@ public class MainActivity extends Activity {
     }
 
     private void updateBackgrounds(int progress) {
-        float[] hsvBlock1 = new float[3];
-        Color.colorToHSV(getResources().getColor(R.color.block1), hsvBlock1);
-
-        float hue1 = (hsvBlock1[0] + progress) % 360;
-        hsvBlock1[0] = hue1;
-        int newBlock1 = Color.HSVToColor(hsvBlock1);
-        block1.setBackgroundColor(newBlock1);
 
         float[] hsvBlock3 = new float[3];
         Color.colorToHSV(getResources().getColor(R.color.block3), hsvBlock3);
@@ -87,6 +82,15 @@ public class MainActivity extends Activity {
         hsvBlock6[0] = hue6;
         int newBlock6 = Color.HSVToColor(hsvBlock6);
         block6.setBackgroundColor(newBlock6);
+
+        float[] hsvBlock7 = new float[3];
+        Color.colorToHSV(getResources().getColor(R.color.block7), hsvBlock7);
+
+        float hue7 = (hsvBlock7[0] + progress) % 360;
+        hsvBlock7[0] = hue7;
+        int newBlock7 = Color.HSVToColor(hsvBlock7);
+        block7_1.setBackgroundColor(newBlock7);
+        block7_2.setBackgroundColor(newBlock7);
     }
 
 
