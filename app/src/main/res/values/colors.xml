@@ -7,5 +7,7 @@
     <color name="block5">#903A37</color>
     <color name="block6">#4A708B</color>
     <color name="block7">#523D27</color>
-    <color name="alert_background">#979AAA</color>
+    <color name="alert_background">#607D8B</color>
+    <color name="primaryDef">#607D8B</color>
+    <color name="primaryDarkDef">#455A64</color>
 </resources>
