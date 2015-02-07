@@ -31,20 +31,18 @@
             android:layout_weight="0.4"
             android:layout_height="match_parent">
 
-            <ImageView
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:id="@+id/imageView1"
+                android:id="@+id/block1"
                 android:layout_weight="0.6"
-                android:contentDescription="block"
                 android:background="@color/block1"
                 android:layout_gravity="center_horizontal"/>
-            <ImageView
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.4"
-                android:id="@+id/imageView2"
-                android:contentDescription="block"
+                android:id="@+id/block2"
                 android:background="@color/block2"
                 android:layout_gravity="center_horizontal"/>
         </LinearLayout>
@@ -55,36 +53,32 @@
             android:layout_weight="0.2"
             android:layout_height="match_parent">
 
-            <ImageView
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:id="@+id/imageView3"
+                android:id="@+id/block3_1"
                 android:layout_weight="0.3"
-                android:contentDescription="block"
                 android:background="@color/block3"
                 android:layout_gravity="center_horizontal"/>
-            <ImageView
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.1"
-                android:id="@+id/imageView4"
-                android:contentDescription="block"
+                android:id="@+id/block4_1"
                 android:background="@color/block4"
                 android:layout_gravity="center_horizontal"/>
-            <ImageView
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.25"
-                android:id="@+id/imageView5"
-                android:contentDescription="block"
+                android:id="@+id/block5"
                 android:background="@color/block5"
                 android:layout_gravity="center_horizontal"/>
-            <ImageView
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.35"
-                android:id="@+id/imageView6"
-                android:contentDescription="block"
+                android:id="@+id/block6"
                 android:background="@color/block6"
                 android:layout_gravity="center_horizontal"/>
 
@@ -96,28 +90,25 @@
             android:layout_weight="0.1"
             android:layout_height="match_parent">
 
-            <ImageView
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:id="@+id/imageView7"
+                android:id="@+id/block3_2"
                 android:layout_weight="0.3"
-                android:contentDescription="block"
                 android:background="@color/block3"
                 android:layout_gravity="center_horizontal"/>
-            <ImageView
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.35"
-                android:id="@+id/imageView8"
-                android:contentDescription="block"
+                android:id="@+id/block4_2"
                 android:background="@color/block4"
                 android:layout_gravity="center_horizontal"/>
-            <ImageView
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.35"
-                android:id="@+id/imageView9"
-                android:contentDescription="block"
+                android:id="@+id/block7_1"
                 android:background="@color/block7"
                 android:layout_gravity="center_horizontal"/>
 
@@ -129,12 +120,11 @@
             android:layout_weight="0.3"
             android:layout_height="match_parent">
 
-            <ImageView
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:id="@+id/imageView10"
+                android:id="@+id/block7_2"
                 android:layout_weight="1"
-                android:contentDescription="block"
                 android:background="@color/block7"
                 android:layout_gravity="center_horizontal"/>
 
